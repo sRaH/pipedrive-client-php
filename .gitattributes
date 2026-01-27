@@ -7,3 +7,6 @@ phpunit.xml.dist export-ignore
 phpstan.neon export-ignore
 CODEOWNERS export-ignore
 repository.json export-ignore
+
+# Use bd merge for beads JSONL files
+.beads/issues.jsonl merge=beads
